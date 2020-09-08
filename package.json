@@ -1,0 +1,17 @@
+{
+  "name": "cardano-cli-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Tran Duc",
+  "license": "ISC",
+  "bin": {
+    "hello": "./bin/index.js"
+  },
+  "dependencies": {
+    "trezor-connect": "^8.1.14-extended"
+  }
+}
