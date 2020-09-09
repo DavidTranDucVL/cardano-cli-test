@@ -1,14 +1,16 @@
 # cardano-cli-test
 
 ## Prerequisites
-1. Install node 12.9.1
+1. `nvm install v10.20.1` or `nvm use v10.20.1`
 2. `npm i nexe -g`
-4. You need to have `trezor-bridge` installed
+3. `npm i yarn -g`
+4. `yarn install`
+5. You need to have `trezor-bridge` installed
 
 ## Run
 Connect trezor to pc and run:
 ```
-node .
+sudo node .
 ```
 You should see public key printed
 
@@ -16,11 +18,11 @@ You should see public key printed
 ```
 nexe bin/index.js
 ```
-Should create `trezor-binary-test` file
+Should create `cardano-cli-test` file
 
 ## Run packaged file
-Connect trezor to pc and run:
+Connect trezor/ledger to pc and run:
 ```
-./trezor-binary-test
+sudo ./cardano-cli-test
 ```
-You should see public key printed
+You should see public key printed after exporting on HW wallet
