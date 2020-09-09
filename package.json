@@ -15,5 +15,13 @@
     "@cardano-foundation/ledgerjs-hw-app-cardano": "^2.0.1",
     "@ledgerhq/hw-transport-node-hid": "^5.23.0",
     "trezor-connect": "^8.1.14-extended"
+  },
+  "pkg": {
+    "assets": [
+      "./node_modules/@cardano-foundation/**",
+      "./node_modules/@ledgerhq/**",
+      "./node_modules/trezor-connect/**"
+    ],
+    "scripts": "./bin/**"
   }
 }
