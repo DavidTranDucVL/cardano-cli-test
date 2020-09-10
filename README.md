@@ -18,7 +18,7 @@ You should see public key printed
 ```
 nexe bin/index.js
 ```
-Should create `cardano-cli-test` file
+Should create `cardano-cli-test` file on linux; or `cardano-cli-test.exe` file on windows
 
 ## Run packaged file
 Connect trezor/ledger to pc and run:
