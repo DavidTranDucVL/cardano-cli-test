@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const getPublicKey = () => {
-    console.log("Hello world from trezor!");
+    console.log("Hello world from trezor.js!");
     
     const TrezorConnect = require('trezor-connect').default;
     

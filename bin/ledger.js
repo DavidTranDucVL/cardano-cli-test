@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const getPublicKey = () => {
-    console.log("Hello world from ledger!");
+    console.log("Hello world from ledger.js!");
     
     const TransportNodeHid = require('@ledgerhq/hw-transport-node-hid').default;
     const transport = TransportNodeHid.create()

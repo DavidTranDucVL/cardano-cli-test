@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
-const trezor = require("./trezor");
-trezor.getPublicKey()
+const [node, appName, ...args] =  process.argv
 
-const ledger = require("./ledger");
-ledger.getPublicKey()
+const commandParser = require('./commandParser');
+commandParser.parseCommand(args)
